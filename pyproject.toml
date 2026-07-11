@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trfa"
+version = "0.0.1"
+authors = [
+  { name="Sayoonwoo" },
+]
+description = "A custom true/false keyword matching and filtering manager."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
